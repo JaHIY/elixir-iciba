@@ -107,6 +107,7 @@ defmodule ICIBA.CLI do
                       :yellow,
                       part |> String.pad_trailing(4),
                       :reset,
+                      " ",
                       means |> Enum.join("；")
                     ]
                   end
