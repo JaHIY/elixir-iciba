@@ -105,9 +105,8 @@ defmodule ICIBA.CLI do
                     [
                       String.duplicate(" ", 2),
                       :yellow,
-                      part |> String.pad_trailing(4),
+                      part |> String.pad_trailing(5),
                       :reset,
-                      " ",
                       means |> Enum.join("；")
                     ]
                   end
